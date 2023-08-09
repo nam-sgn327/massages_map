@@ -267,7 +267,7 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: 'What\'s Japantown like',
-            image: '/pictures/massagegirls.png',
+            image: '/images/massagegirls.png',
             description: '2. Having to dodge your way across a minefield of hostesses offering you a special massage, if you have the unfortunate luck of being a non-Vietnamese male.',
             location: {
                 center: [106.705532, 10.780234],
@@ -352,7 +352,7 @@ var config = {
             alignment: 'left',
             hidden: false,
             // title: 'What\'s Japantown like',
-            image: '/pictures/snack_bar.jpg',
+            image: '/images/snack_bar.jpg',
             description: 'The pickings available to Japanese expats are\n1. Snack or counter bars, a more wallet-friendly option compared to oppulent hostess clubs back in Japan to enjoy some female company. ',
             location: {
                 center: [106.705532, 10.780234],
@@ -421,7 +421,7 @@ var config = {
             alignment: 'left',
             hidden: false,
             // title: 'What\'s Japantown like',
-            image: '/pictures/karaoke_bar.jpg',
+            image: '/images/karaoke_bar.jpg',
             description: '2. Karoke bars or KTVs (Karaoke TV), where clients sing away their stress in a private room, often with female company. The karaoke bars of Saigon\'s Japantown is pretty devoid of song.',
             location: {
                 center: [106.705532, 10.780234],
@@ -477,7 +477,7 @@ var config = {
                 },
                 {
                     layer: 'massages',
-                    opacity: 0
+                    opacity: 1
                 },
                 {
                     layer: 'shady',
@@ -486,11 +486,11 @@ var config = {
             ]
         },
         {
-            id: 'ninth-chapter',
+            id: 'tenth-chapter',
             alignment: 'left',
             hidden: false,
             // title: 'What\'s Japantown like',
-            image: '/pictures/nice_spa.jpg',
+            image: '/images/nice_spa.jpg',
             description: '3. The ubiquitous massages with happy-endings, a mainstay for sexpats coming to Southeast Asia.',
             location: {
                 center: [106.705532, 10.780234],
@@ -551,11 +551,11 @@ var config = {
             }]
         },
         {
-            id: 'tenth-chapter',
+            id: 'eleventh-chapter',
             alignment: 'left',
             hidden: false,
             // title: 'What\'s Japantown like',
-            image: '/pictures/ginga_jpnonly.jpg',
+            image: '/images/ginga_jpnonly.jpg',
             description: 'Cloaked in a shroud of secrecy with dark doors and Japanese-only names, these snack and KTV bars know who they\'re not catering to: local Vietnamese men',
             location: {
                 center: [106.705532, 10.780234],
@@ -568,7 +568,7 @@ var config = {
             callback: '',
             onChapterEnter: [],
             onChapterExit: []
-        },
+        }
         
         
     ]
